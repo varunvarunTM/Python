@@ -1,0 +1,8 @@
+email = input()
+details = email.split("_")
+print(details[0])
+print(details[1])
+print(details[2])
+print(email[9:13])
+institute = email.split(".")
+print(institute[2])
